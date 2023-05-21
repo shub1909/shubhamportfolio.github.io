@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Shubham's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel = "icon" href = "images/favicon.png" type = "image/png">
+	</head>
+	<body class="is-preload">
+
+	<div id="particles-js"></div>
+
+	<script src="assets/js/particles.js"></script>
+	<script src="assets/js/app.js"></script>
+	
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>SHUBHAM<br />
+						JAIN</h1>
+						<p>Data analysis that doesn't just inform – it inspires better decision-making.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">SHUBHAM JAIN</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">PORTFOLIO</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="mailto:shubhamjain190993@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shubham-jain-052205115/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/shub1909" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">ABOUT ME<br />
+									</a></h2>
+									<p>My name is Shubham Jain, a Data analysis & business intelligence enthusiast with 6 years of experience in analyzing and visualizing data.<br/>
+									Realizing the power of numbers in making informed business decisions led me to become a data analyst.<br />To create inspiring dashboards and perform data analysis, I leverage the power of Tableau and Power BI for visualization, as well as Python and SQL for deeper insights.<br /> Invite you to explore my website where you can discover numerous examples of my projects, including links to my BI-Portfolio and GitHub. Enjoy browsing and thank you for visiting!.</p>
+								</header>
+									<h2><a href="https://github.com/shub1909">DATA SCIENCE PROJECTS<br />
+									</a></h2>
+									<a href="https://github.com/shub1909" class="image main"><img src="images/datascience.jpg" alt="" /></a>
+									<ul class="actions special">
+										<li><a href="https://github.com/shub1909" target="_blank" class="button">VIEW PROJECTS</a></li>
+									</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://public.tableau.com/app/profile/shubhamjain">TABLEAU DASHBOARD<br /></a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/shubhamjain" class="image fit"><img src="images/tableau.jpeg" alt="" /></a>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/shubhamjain" class="button">VIEW DASHBOARDS</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://www.novypro.com/profile_projects/shubhamjain">POWER BI DASHBOARD<br /></a></h2>
+									</header>
+									<a href="https://www.novypro.com/profile_projects/shubhamjain" class="image fit"><img src="images/POWERBI.png" alt="" /></a>
+									<ul class="actions special">
+										<li><a href="https://www.novypro.com/profile_projects/shubhamjain" class="button">VIEW DASHBOARDS</a></li>
+									</ul>
+								</article>
+							</section>
+							<article></article>
+					</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="" name="contactform" id = "contactform">
+
+									<div class="fields">
+									<div class="field">
+										<label for="name">Name<span class="required">*</span></label>
+										<input type="text" name="name" id="name" required/>
+									</div>
+									<div class="field">
+										<label for="email">Email<span class="required">*</span></label>
+										<input type="email" name="email" id="email" required/>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+
+						<style>
+								.required {
+								color: red;
+								}
+						</style>
+						
+						<script>
+							const scriptURL = 'https://script.google.com/macros/s/AKfycbxmS5h_I96Mfr6nyWoA2cyLdGEf8gnNxA9HHNT8cpdavc3olNlxvAK7RyTGJxOKQRU/exec'
+							const form = document.forms['contactform']
+						  
+							form.addEventListener('submit', e => {
+							  e.preventDefault()
+							  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+								.then(response => alert("Thank you! your form is submitted successfully." ))
+								.then(() => {  window.location.reload(); })
+								.catch(error => console.error('Error!', error.message))
+							})
+						</script>
+
+
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>New Delhi, India</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="tel:+919582488339"> +91 (958) 248-8339</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:shubhamjain190993@gmail.com">shubhamjain190993@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons">
+							<li><a href="mailto:shubhamjain190993@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shubham-jain-052205115/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/shub1909" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
